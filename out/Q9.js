@@ -1,3 +1,4 @@
+"use strict";
 //Q9:Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-let favoriteNum: number = 69;
+let favoriteNum = 69;
 console.log("My favorite number is :", favoriteNum);
