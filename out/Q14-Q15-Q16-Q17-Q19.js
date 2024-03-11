@@ -13,9 +13,9 @@ Guests.map((guest) => {
 });
 console.log(`We Have Found A Bigger Dinner Table`);
 // Question 16: More Guestss: You just found a bigger dinner table, so now more space is available. Think of three more guestss to invite to dinner.
-Guests.splice(0, 0, "Kashif");
-Guests.splice(4, 0, "Amir");
-Guests.push("Sajjad");
+Guests.splice(0, 0, "Abdul");
+Guests.splice(4, 0, "Moeed");
+Guests.push("Shahrick");
 Guests.map((guest) => {
     console.log(guest, " you are invited buddy this time final ");
 });
