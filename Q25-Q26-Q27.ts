@@ -5,12 +5,12 @@ let alien_color: string = 'green'; // Change to 'yellow' or 'red' for failing te
 if (alien_color === 'green') {
   console.log("The player just earned 5 points!");
 } else {
-  console.log("No points awarded. The alien wasn't green."); // This line won't execute for green alien
+  console.log("No points awarded. The alien wasn't green."); 
 }
 
 //Q26
 alien_color = "yellow";
-if (alien_color === 'green') {//assign it to any othher for failing version
+if (alien_color === 'green') {
     console.log("The player just earned 5 points for shooting the alien.");
 } else {
   console.log("The player just earned 10 points.");

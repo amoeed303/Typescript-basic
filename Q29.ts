@@ -12,8 +12,8 @@ if (favorite_fruits.includes("grapefruit")) {
   console.log("You really like grapefruits!");
 }
 
-if (favorite_fruits.includes("banana")) { // Check for a fruit not in the list
-  console.log("You really like bananas!"); // This won't print
+if (favorite_fruits.includes("banana")) { 
+  console.log("You really like bananas!"); 
 }
 
 
